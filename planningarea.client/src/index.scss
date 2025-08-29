@@ -1,0 +1,94 @@
+.color1 {
+    background: #f6511dff;
+    transition: background 0.2s ease, transform 0.1s ease;
+}
+
+    .color1:hover {
+        background: #dd4618; /* darker on hover */
+    }
+
+    .color1:active {
+        transform: scale(0.95); /* shrink on click */
+    }
+
+.color2 {
+    background: #ffb400ff;
+    transition: background 0.2s ease, transform 0.1s ease;
+}
+
+    .color2:hover {
+        background: #e6a200;
+    }
+
+    .color2:active {
+        transform: scale(0.95);
+    }
+
+.color3 {
+    background: #00a6edff;
+    transition: background 0.2s ease, transform 0.1s ease;
+}
+
+    .color3:hover {
+        background: #0092d1;
+    }
+
+    .color3:active {
+        transform: scale(0.95);
+    }
+
+.color4 {
+    background: #7fb800ff;
+    transition: background 0.2s ease, transform 0.1s ease;
+}
+
+    .color4:hover {
+        background: #72a400;
+    }
+
+    .color4:active {
+        transform: scale(0.95);
+    }
+
+.color5 {
+    background: #0d2c54ff;
+    transition: background 0.2s ease, transform 0.1s ease;
+}
+
+    .color5:hover {
+        background: #0b2546;
+    }
+
+    .color5:active {
+        transform: scale(0.95);
+    }
+
+    .header {
+        display: flex;
+        justify-content: flex-start;
+        padding: 1rem;
+        box-shadow: 2px 2px 2px rgba(0,0,0,.4);
+        width:100%;
+    }
+    .title {
+        font-weight: bold;
+        margin: 0;
+    }
+    .user {
+        margin-left: auto;
+        display: flex;
+        align-items: center;
+        font-size: 1rem;
+        font-weight: normal;
+    }
+html {
+    box-sizing: border-box;
+}
+
+*, *::before, *::after {
+    box-sizing: inherit;
+}
+
+body {
+    margin: 0;
+}
